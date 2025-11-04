@@ -10,6 +10,7 @@
     "test:debug": "playwright test --debug",
     "install:browsers": "playwright install",
     "pr:create": "node scripts/create-pr.js",
+    "pr:create:manual": "node scripts/create-pr.js --no-auto",
     "pr:review": "node scripts/review-pr.js",
     "pr:merge": "node scripts/merge-pr.js"
   },

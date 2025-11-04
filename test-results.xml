@@ -1,0 +1,74 @@
+<testsuites id="" name="" tests="15" failures="0" skipped="14" errors="0" time="10.882416000000001">
+<testsuite name="test.spec.js" timestamp="2025-11-04T20:54:41.219Z" hostname="chromium" tests="3" failures="0" skipped="2" time="12.912" errors="0">
+<testcase name="AI Driven Slot Booking App Tests › Verify AI Driven title is present" classname="test.spec.js" time="6.163">
+<system-out>
+<![CDATA[✅ AI Driven title verified successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Verify page title and meta information" classname="test.spec.js" time="6.48">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Homepage loads without errors" classname="test.spec.js" time="0.269">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="test.spec.js" timestamp="2025-11-04T20:54:41.219Z" hostname="firefox" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="AI Driven Slot Booking App Tests › Verify AI Driven title is present" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Verify page title and meta information" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Homepage loads without errors" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="test.spec.js" timestamp="2025-11-04T20:54:41.219Z" hostname="webkit" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="AI Driven Slot Booking App Tests › Verify AI Driven title is present" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Verify page title and meta information" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Homepage loads without errors" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="test.spec.js" timestamp="2025-11-04T20:54:41.219Z" hostname="Mobile Chrome" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="AI Driven Slot Booking App Tests › Verify AI Driven title is present" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Verify page title and meta information" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Homepage loads without errors" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="test.spec.js" timestamp="2025-11-04T20:54:41.219Z" hostname="Mobile Safari" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="AI Driven Slot Booking App Tests › Verify AI Driven title is present" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Verify page title and meta information" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="AI Driven Slot Booking App Tests › Homepage loads without errors" classname="test.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>
