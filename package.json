@@ -1,16 +1,31 @@
 {
   "name": "pr-automation",
   "version": "1.0.0",
-  "description": "Playwright PR automation tool",
+  "description": "Playwright PR automation tool for GitHub/GitLab PR workflows",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "install:browsers": "playwright install",
+    "pr:create": "node scripts/create-pr.js",
+    "pr:review": "node scripts/review-pr.js",
+    "pr:merge": "node scripts/merge-pr.js"
   },
-  "keywords": ["playwright", "automation", "pr"],
+  "keywords": ["playwright", "automation", "pr", "github", "gitlab", "ci/cd"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.40.0"
+    "@playwright/test": "^1.40.0",
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "@octokit/rest": "^20.0.2",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0"
   }
 }
