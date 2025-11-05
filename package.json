@@ -12,6 +12,7 @@
     "pr:create": "node scripts/create-pr.js",
     "pr:create:manual": "node scripts/create-pr.js --no-auto",
     "pr:review": "node scripts/review-pr.js",
+    "pr:review:latest": "node scripts/review-pr.js",
     "pr:merge": "node scripts/merge-pr.js"
   },
   "keywords": ["playwright", "automation", "pr", "github", "gitlab", "ci/cd"],
