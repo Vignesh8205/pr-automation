@@ -29,6 +29,12 @@ class PRAutomation {
     const [owner, repoName] = repo.split('/');
     
     try {
+      // Log PR details
+      console.log(chalk.gray(`Source branch: ${source}`));
+      console.log(chalk.gray(`Target branch: ${target}`));
+      console.log(chalk.gray(`Repository: ${repo}`));
+      console.log(chalk.gray(`Title: ${title}`));
+      
       // Create the PR
       const response = await this.octokit.rest.pulls.create({
         owner,
@@ -46,6 +52,11 @@ class PRAutomation {
       
       return response.data;
     } catch (error) {
+      if (error.message.includes('A pull request already exists')) {
+        throw new Error(`A pull request already exists for ${source} -> ${target}. Check existing PRs.`);
+      } else if (error.message.includes('No commits between')) {
+        throw new Error(`No commits found between ${target} and ${source}. Make sure you have commits to create a PR.`);
+      }
       throw new Error(`Failed to create PR: ${error.message}`);
     }
   }
